@@ -1,0 +1,12 @@
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    gap: 1.875rem;
+    margin-bottom: 3.9375rem;
+}
+
+@media (max-width: 500px){
+    .projectSection{
+        align-items: center;        
+    }
+}

@@ -1,0 +1,12 @@
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+@media (max-width: 500px){
+    .projectList{
+        gap: 1.5625rem;
+    }
+}
+

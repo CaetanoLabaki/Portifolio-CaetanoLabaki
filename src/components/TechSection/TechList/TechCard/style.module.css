@@ -1,0 +1,9 @@
+.teclistItem{
+    display: flex;
+    gap: 1.875rem;
+    padding: 1.875rem 5.0625rem 1.875rem 1.875rem;
+    border: 1px solid white ;
+    border-radius: 25px;
+    width: 17.9375rem;
+    margin-bottom: 1.25rem;
+}

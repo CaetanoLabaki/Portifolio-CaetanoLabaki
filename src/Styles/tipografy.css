@@ -1,0 +1,45 @@
+.title{
+    font-weight: 800;
+    color: var(--color-white);
+}  
+
+.title.md{    
+    line-height: 3.0256rem;
+    font-size: clamp(2rem, 0.271rem + 2.476vw, 2.5rem);
+}
+
+.title.sm{    
+    line-height: 1.6644rem;
+    font-size: clamp(1.1rem, 0.218rem + 1.286vw, 1.375rem);   
+}
+
+.title.lg{
+    line-height: 3.6306rem;
+    font-size: clamp(2.5rem, 0.429rem + 2.857vw, 3rem);
+}
+
+.paragraph{
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: var(--color-white);
+    font-size: clamp(0.8rem, 0.486rem + 0.571vw, 1rem);    
+}
+
+.userName{
+    color: var(--color-purple);
+    font-weight: 400;
+    line-height: 1.875rem;
+    font-size: clamp(0.7rem, 0.188rem + 0.833vw, 0.938rem);
+}
+
+.projectLinks{
+    color: var(--color-purple);
+    font-weight: 700;
+    font-size: clamp(0.8rem, 0.314rem + 0.762vw, 1rem);
+    line-height: 1.875rem;
+    margin-bottom: clamp(0.2rem, -0.059rem + 0.69vw, 0.563rem);
+}
+
+
+
+

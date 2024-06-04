@@ -1,0 +1,19 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.0588rem;
+    height: 2.4375rem;
+    padding: 0 2.5rem;
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: var(--color-purple-hover);
+}

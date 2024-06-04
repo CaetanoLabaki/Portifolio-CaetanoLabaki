@@ -1,0 +1,11 @@
+.tecSection{
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+}
+
+@media (max-width: 500px) {
+    .tecSection{
+        align-items: center;        
+    }
+}

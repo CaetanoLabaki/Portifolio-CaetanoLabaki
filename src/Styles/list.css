@@ -1,0 +1,6 @@
+.headerItem{
+    color: var(--color-white);
+    line-height: 1.0588rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+}

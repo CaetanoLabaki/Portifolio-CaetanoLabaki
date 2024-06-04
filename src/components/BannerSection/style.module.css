@@ -1,0 +1,36 @@
+.bannerElements{
+    display: flex;    
+    justify-content: space-between;
+}
+
+.bannerLeft{
+    display: flex;
+    flex-direction: column;    
+    align-items: flex-start;
+}
+
+.bannerLeft h1{
+    margin-bottom: clamp(1.1rem, 0.859rem + 0.643vw, 1.438rem);
+    width: 20rem;
+}
+
+.bannerLeft button{
+    margin-top: 2.3125rem;
+}
+
+@media (max-width: 500px) {
+    .bannerElements{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.9688rem;
+    }
+
+    .bannerElements img{
+        max-width: 309.09px;
+    }
+}
+
+
+
+

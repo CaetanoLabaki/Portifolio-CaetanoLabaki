@@ -1,0 +1,10 @@
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;    
+}
+
+.section-padding{
+    margin-bottom: clamp(1.8rem, -1.379rem + 8.476vw, 6.25rem);
+}
+
